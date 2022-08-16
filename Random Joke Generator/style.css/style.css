@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #557571;
+    color: #F4F4F4;
+}
+section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #D49A89;
+    border-radius: 8px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.container p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: justify;
+}
+button {
+    margin-top: 4rem;
+    width: fit-content;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: #F7D1BA;
+    color: #557571;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+}
