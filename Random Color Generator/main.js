@@ -16,3 +16,4 @@ function colorChange(event) {
 }
 
 button.addEventListener("click", colorChange);
+mysteryButton.addEventListener("wheel", colorChange);
