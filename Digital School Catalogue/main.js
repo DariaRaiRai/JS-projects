@@ -45,12 +45,19 @@ class PrimarySchool extends School {
   }
 }
 
-lass HighSchool extends School {
-    constructor(name, sportsTeams, numberOfStudents) {
-      super(name, 'HighSchool', numberOfStudents);
-      this._sportsTeams = sportsTeams;
-    }
-    get sportsTeams() {
-      return this._sportsTeams;
-    }
+class HighSchool extends School {
+  constructor(name, sportsTeams, numberOfStudents) {
+    super(name, "HighSchool", numberOfStudents);
+    this._sportsTeams = sportsTeams;
   }
+  get sportsTeams() {
+    return this._sportsTeams;
+  }
+}
+
+const lorraineHansbury = new PrimarySchool(
+  "Lorraine Hansbury",
+  "Students must be picked up by a parent, guardian, or a family member over the age of 13.",
+  514
+);
+lorraineHansbury.quickFacts();
