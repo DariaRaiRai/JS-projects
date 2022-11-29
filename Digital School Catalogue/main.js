@@ -35,3 +35,12 @@ class School {
     console.log(subtituteTeachers[randomIndex]);
   }
 }
+class PrimarySchool extends School {
+  constructor(name, pickupPolicy, numberOfStudents) {
+    super(name, "primary", numberOfStudents);
+    this._pickupPolicy = pickupPolicy;
+  }
+  get pickupPolicy() {
+    return this._pickupPolicy;
+  }
+}
