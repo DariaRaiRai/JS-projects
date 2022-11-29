@@ -61,3 +61,12 @@ const lorraineHansbury = new PrimarySchool(
   514
 );
 lorraineHansbury.quickFacts();
+
+PrimarySchool.pickSubstituteTeacher([
+  "Jamal Crawford",
+  "Lou Williams",
+  "J. R. Smith",
+  "James Harden",
+  "Jason Terry",
+  "Manu Ginobli",
+]);
