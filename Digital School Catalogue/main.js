@@ -44,3 +44,13 @@ class PrimarySchool extends School {
     return this._pickupPolicy;
   }
 }
+
+lass HighSchool extends School {
+    constructor(name, sportsTeams, numberOfStudents) {
+      super(name, 'HighSchool', numberOfStudents);
+      this._sportsTeams = sportsTeams;
+    }
+    get sportsTeams() {
+      return this._sportsTeams;
+    }
+  }
